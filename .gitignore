@@ -1,0 +1,5 @@
+__pycache__/
+.venv/
+uv.lock
+vector_db.json
+D22_CLC_Teaching_Slide (Next).pdf
