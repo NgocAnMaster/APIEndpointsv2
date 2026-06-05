@@ -12,7 +12,7 @@ from openai import OpenAI
 # 0. CẤU HÌNH THÔNG TIN PHÒNG THI (THAY ĐỔI TẠI ĐÂY)
 # ==========================================
 STUDENT_ID = "B22DCDT003"  # <--- THAY BẰNG MÃ SINH VIÊN CỦA BẠN (VIẾT HOA)
-TEACHER_PROXY_URL = "http://192.168.50.218:8000/api/v1/proxy"
+TEACHER_PROXY_URL = "http://10.170.45.200:8000/api/v1/proxy"
 
 # ==========================================
 # 1. KHỞI TẠO EMBEDDING MODEL & OPENAI CLIENT
