@@ -12,13 +12,13 @@ def send_json_requests():
     }
 
     # Define URLs and JSON payloads
-    url_1 = "http://10.170.45.200:8000/api/v1/competition/register"
-    payload_1 = {"server_url": "http://10.170.45.67:8000"}
+    url_1 = "http://127.0.0.1:5000/api/v1/competition/register"
+    payload_1 = {"server_url": "http://127.0.0.1:8000"}
 
-    url_2 = "http://10.170.45.200:8000/api/v1/competition/evaluate"
+    url_2 = "http://127.0.0.1:5000/api/v1/competition/evaluate"
     payload_2 = {}
 
-    url_3 = "http://10.170.45.200:8000/api/v1/competition/result"
+    url_3 = "http://127.0.0.1:5000/api/v1/competition/result"
     payload_3 = {}
 
     try:

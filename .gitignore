@@ -2,3 +2,4 @@ __pycache__/
 .venv/
 uv.lock
 vector_db.json
+vector_db_2.json

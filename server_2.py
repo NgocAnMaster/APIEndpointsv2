@@ -12,7 +12,7 @@ from openai import OpenAI
 # 0. CẤU HÌNH THÔNG TIN PHÒNG THI (THAY ĐỔI TẠI ĐÂY)
 # ==========================================
 STUDENT_ID = "B22DCDT003"  # <--- THAY BẰNG MÃ SINH VIÊN CỦA BẠN (VIẾT HOA)
-TEACHER_PROXY_URL = "http://127.0.0.1:5000/api/v1/proxy"
+TEACHER_PROXY_URL = "http://10.170.45.200:8000/api/v1/proxy"
 
 # ==========================================
 # 1. KHỞI TẠO EMBEDDING MODEL & OPENAI CLIENT
@@ -72,8 +72,8 @@ def smart_chunking(text: str):
     """Chia nhỏ văn bản dựa trên dấu câu để giữ toàn vẹn ngữ nghĩa."""
     return [s.strip() for s in text.split('.') if s.strip()]
 
-def search_relevant_chunks(query: str, top_k: int = 5):
-    """Tìm kiếm ngữ nghĩa sử dụng Cosine Similarity và bộ lọc ngưỡng 0.7."""
+def search_relevant_chunks(query: str, top_k: int = 3):
+    """Tìm kiếm ngữ nghĩa sử dụng Cosine Similarity và bộ lọc ngưỡng 0.8."""
     if not mock_vector_db:
         return []
 
@@ -104,13 +104,9 @@ def search_relevant_chunks(query: str, top_k: int = 5):
     if not results:
         return []
     
-    # Bộ lọc giữ lại các chunk đạt tối thiểu 70% điểm số của chunk cao nhất
+    # Bộ lọc giữ lại các chunk đạt tối thiểu 80% điểm số của chunk cao nhất
     max_score = results[0][0]
-    # Đảm bảo max_score dương và áp dụng ngưỡng lọc 70% một cách an toàn
-    if max_score > 0:
-        filtered_results = [res for res in results if res[0] >= max_score * 0.7]
-    else:
-        filtered_results = results
+    filtered_results = [res for res in results if res[0] >= max_score * 0.8]
     
     return [res[1] for res in filtered_results[:top_k]]
 
@@ -124,8 +120,7 @@ def call_llm_rag(question: str):
         return "A", ["Không tìm thấy ngữ cảnh phù hợp"]
     
     # Hợp nhất các đoạn văn bản làm ngữ cảnh nền cho câu hỏi
-    # context_text = " ".join([item['text'] for item in relevant_items])
-    context_text = "\n".join([f" Đoạn {i+1}: {item['text']}" for i, item in enumerate(relevant_items)])
+    context_text = " ".join([item['text'] for item in relevant_items])
     sources = [item['doc_id'] for item in relevant_items]
     
     # Thiết lập System Prompt cực kỳ nghiêm ngặt để ép đầu ra là đáp án trắc nghiệm
