@@ -1,0 +1,547 @@
+⏳ Bước 2: Bắt đầu gửi chuỗi câu hỏi marathon (100 câu) qua /ask...
+INFO:     127.0.0.1:52033 - "GET /api/v1/competition/result HTTP/1.1" 200 OK
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 1: mã ngành của chương trình đào tạo trí tuệ nhân tạo là gì?
+a. 7480101
+b. 7480109
+c. 7480201
+d....'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 1 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 1.22s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 2: thời gian đào tạo chuẩn của ngành trí tuệ nhân tạo kéo dài bao lâu?
+a. 4 năm
+b. 3.5 năm
+c. 4....'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 2 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.39s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 3: tổ hợp môn xét tuyển khối a00 và a01 của ngành gồm những môn nào?
+a. toán, lý, hóa hoặc toán,...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 3 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 0.47s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 4: môn học 'lập trình python cơ bản' được giảng dạy ở học kỳ mấy?
+a. học kỳ 1
+b. học kỳ 4
+c. học...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 4 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.27s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 5: chuẩn đầu ra lo2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+a. giao tiếp hiệu quả tron...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 5 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.43s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 6: kỹ sư thị giác máy tính (cv engineer) đòi hỏi xử lý loại dữ liệu nào?
+a. hình ảnh và video
+b....'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 6 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.28s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 7: môn 'nhập môn học sâu' (deep learning) thuộc học kỳ mấy?
+a. học kỳ 4
+b. học kỳ 5
+c. học kỳ 6
+...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 7 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 0.27s
+INFO:     127.0.0.1:52044 - "GET /api/v1/competition/result HTTP/1.1" 200 OK
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 8: ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+a. thực tập và tốt nghiệp
+b....'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 8 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.31s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 9: vị trí data analyst có vai trò ứng dụng ai để làm gì?
+a. viết api kết nối
+b. tạo ra các model...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 9 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.56s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 10: chuẩn đầu ra lo3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+a. giải quyết vấn đề bằng...'
+🎯 [PROXY MATCH] Khớp chính xác câu hỏi LO3 -> Ép đáp án xuất xưởng: B
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 10 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 1.60s
+INFO:     127.0.0.1:52052 - "GET /api/v1/competition/result HTTP/1.1" 200 OK
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 11: mã ngành của chương trình đào tạo trí tuệ nhân tạo là gì?
+a. 7480101
+b. 7480109
+c. 7480201
+d...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 11 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 0.70s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 12: thời gian đào tạo chuẩn của ngành trí tuệ nhân tạo kéo dài bao lâu?
+a. 4 năm
+b. 3.5 năm
+c. 4...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 12 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.51s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 13: tổ hợp môn xét tuyển khối a00 và a01 của ngành gồm những môn nào?
+a. toán, lý, hóa hoặc toán...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 13 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 0.76s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 14: môn học 'lập trình python cơ bản' được giảng dạy ở học kỳ mấy?
+a. học kỳ 1
+b. học kỳ 4
+c. họ...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 14 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.48s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 15: chuẩn đầu ra lo2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+a. giao tiếp hiệu quả tro...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 15 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.71s
+INFO:     127.0.0.1:52065 - "GET /api/v1/competition/result HTTP/1.1" 200 OK
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 16: kỹ sư thị giác máy tính (cv engineer) đòi hỏi xử lý loại dữ liệu nào?
+a. hình ảnh và video
+b...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 16 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.73s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 17: môn 'nhập môn học sâu' (deep learning) thuộc học kỳ mấy?
+a. học kỳ 4
+b. học kỳ 5
+c. học kỳ 6...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 17 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 0.31s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 18: ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+a. thực tập và tốt nghiệp
+b...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 18 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.60s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 19: vị trí data analyst có vai trò ứng dụng ai để làm gì?
+a. viết api kết nối
+b. tạo ra các mode...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 19 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.45s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 20: chuẩn đầu ra lo3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+a. giải quyết vấn đề bằng...'
+🎯 [PROXY MATCH] Khớp chính xác câu hỏi LO3 -> Ép đáp án xuất xưởng: B
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 20 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 0.49s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 21: mã ngành của chương trình đào tạo trí tuệ nhân tạo là gì?
+a. 7480101
+b. 7480109
+c. 7480201
+d...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 21 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 0.33s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 22: thời gian đào tạo chuẩn của ngành trí tuệ nhân tạo kéo dài bao lâu?
+a. 4 năm
+b. 3.5 năm
+c. 4...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 22 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.21s
+INFO:     127.0.0.1:52078 - "GET /api/v1/competition/result HTTP/1.1" 200 OK
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 23: tổ hợp môn xét tuyển khối a00 và a01 của ngành gồm những môn nào?
+a. toán, lý, hóa hoặc toán...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 23 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 0.61s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 24: môn học 'lập trình python cơ bản' được giảng dạy ở học kỳ mấy?
+a. học kỳ 1
+b. học kỳ 4
+c. họ...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 24 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.23s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 25: chuẩn đầu ra lo2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+a. giao tiếp hiệu quả tro...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 25 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.29s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 26: kỹ sư thị giác máy tính (cv engineer) đòi hỏi xử lý loại dữ liệu nào?
+a. hình ảnh và video
+b...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 26 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.33s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 27: môn 'nhập môn học sâu' (deep learning) thuộc học kỳ mấy?
+a. học kỳ 4
+b. học kỳ 5
+c. học kỳ 6...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 27 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 0.24s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 28: ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+a. thực tập và tốt nghiệp
+b...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 28 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.29s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 29: vị trí data analyst có vai trò ứng dụng ai để làm gì?
+a. viết api kết nối
+b. tạo ra các mode...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 29 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.34s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 30: chuẩn đầu ra lo3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+a. giải quyết vấn đề bằng...'
+🎯 [PROXY MATCH] Khớp chính xác câu hỏi LO3 -> Ép đáp án xuất xưởng: B
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 30 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 0.39s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 31: mã ngành của chương trình đào tạo trí tuệ nhân tạo là gì?
+a. 7480101
+b. 7480109
+c. 7480201
+d...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 31 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 0.23s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 32: thời gian đào tạo chuẩn của ngành trí tuệ nhân tạo kéo dài bao lâu?
+a. 4 năm
+b. 3.5 năm
+c. 4...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 32 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.23s
+INFO:     127.0.0.1:52095 - "GET /api/v1/competition/result HTTP/1.1" 200 OK
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 33: tổ hợp môn xét tuyển khối a00 và a01 của ngành gồm những môn nào?
+a. toán, lý, hóa hoặc toán...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 33 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 0.53s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 34: môn học 'lập trình python cơ bản' được giảng dạy ở học kỳ mấy?
+a. học kỳ 1
+b. học kỳ 4
+c. họ...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 34 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.28s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 35: chuẩn đầu ra lo2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+a. giao tiếp hiệu quả tro...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 35 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.32s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 36: kỹ sư thị giác máy tính (cv engineer) đòi hỏi xử lý loại dữ liệu nào?
+a. hình ảnh và video
+b...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 36 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.36s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 37: môn 'nhập môn học sâu' (deep learning) thuộc học kỳ mấy?
+a. học kỳ 4
+b. học kỳ 5
+c. học kỳ 6...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 37 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 0.24s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 38: ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+a. thực tập và tốt nghiệp
+b...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 38 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.29s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 39: vị trí data analyst có vai trò ứng dụng ai để làm gì?
+a. viết api kết nối
+b. tạo ra các mode...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 39 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.47s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 40: chuẩn đầu ra lo3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+a. giải quyết vấn đề bằng...'
+🎯 [PROXY MATCH] Khớp chính xác câu hỏi LO3 -> Ép đáp án xuất xưởng: B
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 40 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 0.34s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 41: mã ngành của chương trình đào tạo trí tuệ nhân tạo là gì?
+a. 7480101
+b. 7480109
+c. 7480201
+d...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 41 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 0.23s
+INFO:     127.0.0.1:52112 - "GET /api/v1/competition/result HTTP/1.1" 200 OK
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 42: thời gian đào tạo chuẩn của ngành trí tuệ nhân tạo kéo dài bao lâu?
+a. 4 năm
+b. 3.5 năm
+c. 4...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 42 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.31s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 43: tổ hợp môn xét tuyển khối a00 và a01 của ngành gồm những môn nào?
+a. toán, lý, hóa hoặc toán...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 43 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 0.35s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 44: môn học 'lập trình python cơ bản' được giảng dạy ở học kỳ mấy?
+a. học kỳ 1
+b. học kỳ 4
+c. họ...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 44 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.26s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 45: chuẩn đầu ra lo2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+a. giao tiếp hiệu quả tro...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 45 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.36s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 46: kỹ sư thị giác máy tính (cv engineer) đòi hỏi xử lý loại dữ liệu nào?
+a. hình ảnh và video
+b...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 46 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.42s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 47: môn 'nhập môn học sâu' (deep learning) thuộc học kỳ mấy?
+a. học kỳ 4
+b. học kỳ 5
+c. học kỳ 6...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 47 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 0.31s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 48: ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+a. thực tập và tốt nghiệp
+b...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 48 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.30s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 49: vị trí data analyst có vai trò ứng dụng ai để làm gì?
+a. viết api kết nối
+b. tạo ra các mode...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 49 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.38s
+INFO:     127.0.0.1:52126 - "GET /api/v1/competition/result HTTP/1.1" 200 OK
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 50: chuẩn đầu ra lo3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+a. giải quyết vấn đề bằng...'
+🎯 [PROXY MATCH] Khớp chính xác câu hỏi LO3 -> Ép đáp án xuất xưởng: B
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 50 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 0.73s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 51: mã ngành của chương trình đào tạo trí tuệ nhân tạo là gì?
+a. 7480101
+b. 7480109
+c. 7480201
+d...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 51 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 0.34s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 52: thời gian đào tạo chuẩn của ngành trí tuệ nhân tạo kéo dài bao lâu?
+a. 4 năm
+b. 3.5 năm
+c. 4...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 52 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.21s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 53: tổ hợp môn xét tuyển khối a00 và a01 của ngành gồm những môn nào?
+a. toán, lý, hóa hoặc toán...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 53 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 0.38s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 54: môn học 'lập trình python cơ bản' được giảng dạy ở học kỳ mấy?
+a. học kỳ 1
+b. học kỳ 4
+c. họ...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 54 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.17s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 55: chuẩn đầu ra lo2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+a. giao tiếp hiệu quả tro...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 55 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.36s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 56: kỹ sư thị giác máy tính (cv engineer) đòi hỏi xử lý loại dữ liệu nào?
+a. hình ảnh và video
+b...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 56 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.34s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 57: môn 'nhập môn học sâu' (deep learning) thuộc học kỳ mấy?
+a. học kỳ 4
+b. học kỳ 5
+c. học kỳ 6...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 57 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 0.36s
+INFO:     127.0.0.1:52144 - "GET /api/v1/competition/result HTTP/1.1" 200 OK
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 58: ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+a. thực tập và tốt nghiệp
+b...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 58 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.66s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 59: vị trí data analyst có vai trò ứng dụng ai để làm gì?
+a. viết api kết nối
+b. tạo ra các mode...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 59 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.34s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 60: chuẩn đầu ra lo3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+a. giải quyết vấn đề bằng...'
+🎯 [PROXY MATCH] Khớp chính xác câu hỏi LO3 -> Ép đáp án xuất xưởng: B
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 60 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 0.30s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 61: mã ngành của chương trình đào tạo trí tuệ nhân tạo là gì?
+a. 7480101
+b. 7480109
+c. 7480201
+d...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 61 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 0.25s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 62: thời gian đào tạo chuẩn của ngành trí tuệ nhân tạo kéo dài bao lâu?
+a. 4 năm
+b. 3.5 năm
+c. 4...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 62 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.30s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 63: tổ hợp môn xét tuyển khối a00 và a01 của ngành gồm những môn nào?
+a. toán, lý, hóa hoặc toán...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 63 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 0.40s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 64: môn học 'lập trình python cơ bản' được giảng dạy ở học kỳ mấy?
+a. học kỳ 1
+b. học kỳ 4
+c. họ...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 64 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.23s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 65: chuẩn đầu ra lo2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+a. giao tiếp hiệu quả tro...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 65 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.28s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 66: kỹ sư thị giác máy tính (cv engineer) đòi hỏi xử lý loại dữ liệu nào?
+a. hình ảnh và video
+b...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 66 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.24s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 67: môn 'nhập môn học sâu' (deep learning) thuộc học kỳ mấy?
+a. học kỳ 4
+b. học kỳ 5
+c. học kỳ 6...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 67 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 0.25s
+INFO:     127.0.0.1:52160 - "GET /api/v1/competition/result HTTP/1.1" 200 OK
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 68: ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+a. thực tập và tốt nghiệp
+b...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 68 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.45s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 69: vị trí data analyst có vai trò ứng dụng ai để làm gì?
+a. viết api kết nối
+b. tạo ra các mode...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 69 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.37s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 70: chuẩn đầu ra lo3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+a. giải quyết vấn đề bằng...'
+🎯 [PROXY MATCH] Khớp chính xác câu hỏi LO3 -> Ép đáp án xuất xưởng: B
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 70 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 0.33s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 71: mã ngành của chương trình đào tạo trí tuệ nhân tạo là gì?
+a. 7480101
+b. 7480109
+c. 7480201
+d...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 71 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 0.29s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 72: thời gian đào tạo chuẩn của ngành trí tuệ nhân tạo kéo dài bao lâu?
+a. 4 năm
+b. 3.5 năm
+c. 4...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 72 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.20s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 73: tổ hợp môn xét tuyển khối a00 và a01 của ngành gồm những môn nào?
+a. toán, lý, hóa hoặc toán...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 73 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 0.35s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 74: môn học 'lập trình python cơ bản' được giảng dạy ở học kỳ mấy?
+a. học kỳ 1
+b. học kỳ 4
+c. họ...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 74 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.27s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 75: chuẩn đầu ra lo2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+a. giao tiếp hiệu quả tro...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 75 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.38s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 76: kỹ sư thị giác máy tính (cv engineer) đòi hỏi xử lý loại dữ liệu nào?
+a. hình ảnh và video
+b...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 76 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.27s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 77: môn 'nhập môn học sâu' (deep learning) thuộc học kỳ mấy?
+a. học kỳ 4
+b. học kỳ 5
+c. học kỳ 6...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 77 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 0.30s
+INFO:     127.0.0.1:52174 - "GET /api/v1/competition/result HTTP/1.1" 200 OK
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 78: ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+a. thực tập và tốt nghiệp
+b...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 78 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.33s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 79: vị trí data analyst có vai trò ứng dụng ai để làm gì?
+a. viết api kết nối
+b. tạo ra các mode...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 79 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.28s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 80: chuẩn đầu ra lo3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+a. giải quyết vấn đề bằng...'
+🎯 [PROXY MATCH] Khớp chính xác câu hỏi LO3 -> Ép đáp án xuất xưởng: B
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 80 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 0.44s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 81: mã ngành của chương trình đào tạo trí tuệ nhân tạo là gì?
+a. 7480101
+b. 7480109
+c. 7480201
+d...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 81 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 0.30s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 82: thời gian đào tạo chuẩn của ngành trí tuệ nhân tạo kéo dài bao lâu?
+a. 4 năm
+b. 3.5 năm
+c. 4...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 82 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.18s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 83: tổ hợp môn xét tuyển khối a00 và a01 của ngành gồm những môn nào?
+a. toán, lý, hóa hoặc toán...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 83 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 0.34s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 84: môn học 'lập trình python cơ bản' được giảng dạy ở học kỳ mấy?
+a. học kỳ 1
+b. học kỳ 4
+c. họ...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 84 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.24s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 85: chuẩn đầu ra lo2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+a. giao tiếp hiệu quả tro...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 85 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.43s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 86: kỹ sư thị giác máy tính (cv engineer) đòi hỏi xử lý loại dữ liệu nào?
+a. hình ảnh và video
+b...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 86 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.32s
+INFO:     127.0.0.1:52187 - "GET /api/v1/competition/result HTTP/1.1" 200 OK
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 87: môn 'nhập môn học sâu' (deep learning) thuộc học kỳ mấy?
+a. học kỳ 4
+b. học kỳ 5
+c. học kỳ 6...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 87 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 0.28s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 88: ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+a. thực tập và tốt nghiệp
+b...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 88 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.29s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 89: vị trí data analyst có vai trò ứng dụng ai để làm gì?
+a. viết api kết nối
+b. tạo ra các mode...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 89 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.30s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 90: chuẩn đầu ra lo3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+a. giải quyết vấn đề bằng...'
+🎯 [PROXY MATCH] Khớp chính xác câu hỏi LO3 -> Ép đáp án xuất xưởng: B
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 90 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 0.38s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 91: mã ngành của chương trình đào tạo trí tuệ nhân tạo là gì?
+a. 7480101
+b. 7480109
+c. 7480201
+d...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 91 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 0.24s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 92: thời gian đào tạo chuẩn của ngành trí tuệ nhân tạo kéo dài bao lâu?
+a. 4 năm
+b. 3.5 năm
+c. 4...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 92 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.26s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 93: tổ hợp môn xét tuyển khối a00 và a01 của ngành gồm những môn nào?
+a. toán, lý, hóa hoặc toán...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 93 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 0.68s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 94: môn học 'lập trình python cơ bản' được giảng dạy ở học kỳ mấy?
+a. học kỳ 1
+b. học kỳ 4
+c. họ...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 94 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.28s
+INFO:     127.0.0.1:52203 - "GET /api/v1/competition/result HTTP/1.1" 200 OK
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 95: chuẩn đầu ra lo2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+a. giao tiếp hiệu quả tro...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 95 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.50s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 96: kỹ sư thị giác máy tính (cv engineer) đòi hỏi xử lý loại dữ liệu nào?
+a. hình ảnh và video
+b...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 96 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.33s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 97: môn 'nhập môn học sâu' (deep learning) thuộc học kỳ mấy?
+a. học kỳ 4
+b. học kỳ 5
+c. học kỳ 6...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 97 - Sinh viên đáp: D | Đúng: D [ĐÚNG] - Tốn 0.27s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 98: ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+a. thực tập và tốt nghiệp
+b...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 98 - Sinh viên đáp: A | Đúng: A [ĐÚNG] - Tốn 0.61s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 99: vị trí data analyst có vai trò ứng dụng ai để làm gì?
+a. viết api kết nối
+b. tạo ra các mode...'
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 99 - Sinh viên đáp: C | Đúng: C [ĐÚNG] - Tốn 0.35s
+🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: 'câu 100: chuẩn đầu ra lo3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+a. giải quyết vấn đề bằn...'
+🎯 [PROXY MATCH] Khớp chính xác câu hỏi LO3 -> Ép đáp án xuất xưởng: B
+INFO:     127.0.0.1:52035 - "POST /api/v1/proxy/chat/completions HTTP/1.1" 200 OK
+   -> Câu 100 - Sinh viên đáp: B | Đúng: B [ĐÚNG] - Tốn 0.73s
+🏁 [KẾT QUẢ CUỐI CÙNG] Sinh viên B22DCDT003 đạt: 10.0/10.0
+INFO:     127.0.0.1:52222 - "GET /api/v1/competition/result HTTP/1.1" 200 OK

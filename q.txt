@@ -1,0 +1,702 @@
+✅ Đã nạp thành công và chia nhỏ văn bản thành 22 chunks!
+INFO:     127.0.0.1:56764 - "POST /upload HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 1: Mã ngành của chương trình đào tạo Trí tuệ nhân tạo là gì?
+A. 7480101
+B. 7480109
+C. 7480201
+D. 7480107
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_9', 'exam-document-2026-v4_chunk_14', 'exam-document-2026-v4_chunk_17', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52032 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 2: Thời gian đào tạo chuẩn của ngành Trí tuệ nhân tạo kéo dài bao lâu?
+A. 4 năm
+B. 3.5 năm
+C. 4.5 năm
+D. 5 năm
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_1', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_19']
+INFO:     127.0.0.1:52036 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 3: Tổ hợp môn xét tuyển khối A00 và A01 của ngành gồm những môn nào?
+A. Toán, Lý, Hóa hoặc Toán, Văn, Anh
+B. Toán, Lý, Hóa hoặc Toán, Lý, Anh văn
+C. Toán, Lý, Sinh hoặc Toán, Hóa, Sinh
+D. Toán, Khoa học, Ngoại ngữ
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_15']
+INFO:     127.0.0.1:52037 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 4: Môn học 'Lập trình Python cơ bản' được giảng dạy ở học kỳ mấy?
+A. Học kỳ 1
+B. Học kỳ 4
+C. Học kỳ 2
+D. Học kỳ 3
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52038 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 5: Chuẩn đầu ra LO2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+A. Giao tiếp hiệu quả trong môi trường chuyên nghiệp
+B. Có khả năng làm việc nhóm tốt
+C. Có khả năng lập trình ứng dụng AI
+D. Có đạo đức và tính minh bạch trong nghiên cứu
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_6']
+INFO:     127.0.0.1:52039 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 6: Kỹ sư Thị giác máy tính (CV Engineer) đòi hỏi xử lý loại dữ liệu nào?
+A. Hình ảnh và video
+B. Âm thanh và giọng nói
+C. Văn bản và tài liệu chữ
+D. Cả 3 loại trên
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_4', 'exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_14']
+INFO:     127.0.0.1:52041 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 7: Môn 'Nhập môn Học sâu' (Deep Learning) thuộc học kỳ mấy?
+A. Học kỳ 4
+B. Học kỳ 5
+C. Học kỳ 6
+D. Học kỳ 7
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_0', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52042 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 8: Ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+A. Thực tập và tốt nghiệp
+B. Học các môn bổ trợ chuyên ngành
+C. Đi học Giáo dục Quốc phòng và An ninh
+D. Làm độ án liên ngành
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_11']
+INFO:     127.0.0.1:52043 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 9: Vị trí Data Analyst có vai trò ứng dụng AI để làm gì?
+A. Viết API kết nối
+B. Tạo ra các model nhận diện và xử lý ngôn ngữ tự nhiên
+C. Phân tích dữ liệu lớn để đưa ra thống kê, hiển thị trực quan thông tin
+D. Đào tạo robot công nghiệp tự động
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_6', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52045 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 10: Chuẩn đầu ra LO3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+A. Giải quyết vấn đề bằng toán học
+B. Trách nhiệm, nguyên tắc pháp lý và đạo đức nghề nghiệp
+C. Khả năng ngoại ngữ chuyên ngành
+D. Quản lý và dẫn dắt đội ngũ kỹ sư
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_6']
+INFO:     127.0.0.1:52047 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 11: Mã ngành của chương trình đào tạo Trí tuệ nhân tạo là gì?
+A. 7480101
+B. 7480109
+C. 7480201
+D. 7480107
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_9', 'exam-document-2026-v4_chunk_14', 'exam-document-2026-v4_chunk_17', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52050 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 12: Thời gian đào tạo chuẩn của ngành Trí tuệ nhân tạo kéo dài bao lâu?
+A. 4 năm
+B. 3.5 năm
+C. 4.5 năm
+D. 5 năm
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_1', 'exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_19']
+INFO:     127.0.0.1:52053 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 13: Tổ hợp môn xét tuyển khối A00 và A01 của ngành gồm những môn nào?
+A. Toán, Lý, Hóa hoặc Toán, Văn, Anh
+B. Toán, Lý, Hóa hoặc Toán, Lý, Anh văn
+C. Toán, Lý, Sinh hoặc Toán, Hóa, Sinh
+D. Toán, Khoa học, Ngoại ngữ
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_16']
+INFO:     127.0.0.1:52056 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 14: Môn học 'Lập trình Python cơ bản' được giảng dạy ở học kỳ mấy?
+A. Học kỳ 1
+B. Học kỳ 4
+C. Học kỳ 2
+D. Học kỳ 3
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52060 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 15: Chuẩn đầu ra LO2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+A. Giao tiếp hiệu quả trong môi trường chuyên nghiệp
+B. Có khả năng làm việc nhóm tốt
+C. Có khả năng lập trình ứng dụng AI
+D. Có đạo đức và tính minh bạch trong nghiên cứu
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_6']
+INFO:     127.0.0.1:52062 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 16: Kỹ sư Thị giác máy tính (CV Engineer) đòi hỏi xử lý loại dữ liệu nào?
+A. Hình ảnh và video
+B. Âm thanh và giọng nói
+C. Văn bản và tài liệu chữ
+D. Cả 3 loại trên
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_4', 'exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_3']
+INFO:     127.0.0.1:52064 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 17: Môn 'Nhập môn Học sâu' (Deep Learning) thuộc học kỳ mấy?
+A. Học kỳ 4
+B. Học kỳ 5
+C. Học kỳ 6
+D. Học kỳ 7
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_8', 'exam-document-2026-v4_chunk_0']
+INFO:     127.0.0.1:52067 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 18: Ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+A. Thực tập và tốt nghiệp
+B. Học các môn bổ trợ chuyên ngành
+C. Đi học Giáo dục Quốc phòng và An ninh
+D. Làm độ án liên ngành
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_11']
+INFO:     127.0.0.1:52069 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 19: Vị trí Data Analyst có vai trò ứng dụng AI để làm gì?
+A. Viết API kết nối
+B. Tạo ra các model nhận diện và xử lý ngôn ngữ tự nhiên
+C. Phân tích dữ liệu lớn để đưa ra thống kê, hiển thị trực quan thông tin
+D. Đào tạo robot công nghiệp tự động
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_6', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52071 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 20: Chuẩn đầu ra LO3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+A. Giải quyết vấn đề bằng toán học
+B. Trách nhiệm, nguyên tắc pháp lý và đạo đức nghề nghiệp
+C. Khả năng ngoại ngữ chuyên ngành
+D. Quản lý và dẫn dắt đội ngũ kỹ sư
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_6']
+INFO:     127.0.0.1:52072 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 21: Mã ngành của chương trình đào tạo Trí tuệ nhân tạo là gì?
+A. 7480101
+B. 7480109
+C. 7480201
+D. 7480107
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_9', 'exam-document-2026-v4_chunk_14', 'exam-document-2026-v4_chunk_17', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52074 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 22: Thời gian đào tạo chuẩn của ngành Trí tuệ nhân tạo kéo dài bao lâu?
+A. 4 năm
+B. 3.5 năm
+C. 4.5 năm
+D. 5 năm
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_1', 'exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_19']
+INFO:     127.0.0.1:52076 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 23: Tổ hợp môn xét tuyển khối A00 và A01 của ngành gồm những môn nào?
+A. Toán, Lý, Hóa hoặc Toán, Văn, Anh
+B. Toán, Lý, Hóa hoặc Toán, Lý, Anh văn
+C. Toán, Lý, Sinh hoặc Toán, Hóa, Sinh
+D. Toán, Khoa học, Ngoại ngữ
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_16']
+INFO:     127.0.0.1:52077 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 24: Môn học 'Lập trình Python cơ bản' được giảng dạy ở học kỳ mấy?
+A. Học kỳ 1
+B. Học kỳ 4
+C. Học kỳ 2
+D. Học kỳ 3
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52082 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 25: Chuẩn đầu ra LO2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+A. Giao tiếp hiệu quả trong môi trường chuyên nghiệp
+B. Có khả năng làm việc nhóm tốt
+C. Có khả năng lập trình ứng dụng AI
+D. Có đạo đức và tính minh bạch trong nghiên cứu
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_6']
+INFO:     127.0.0.1:52083 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 26: Kỹ sư Thị giác máy tính (CV Engineer) đòi hỏi xử lý loại dữ liệu nào?
+A. Hình ảnh và video
+B. Âm thanh và giọng nói
+C. Văn bản và tài liệu chữ
+D. Cả 3 loại trên
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_4', 'exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52084 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 27: Môn 'Nhập môn Học sâu' (Deep Learning) thuộc học kỳ mấy?
+A. Học kỳ 4
+B. Học kỳ 5
+C. Học kỳ 6
+D. Học kỳ 7
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_8', 'exam-document-2026-v4_chunk_0']
+INFO:     127.0.0.1:52086 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 28: Ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+A. Thực tập và tốt nghiệp
+B. Học các môn bổ trợ chuyên ngành
+C. Đi học Giáo dục Quốc phòng và An ninh
+D. Làm độ án liên ngành
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_11']
+INFO:     127.0.0.1:52087 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 29: Vị trí Data Analyst có vai trò ứng dụng AI để làm gì?
+A. Viết API kết nối
+B. Tạo ra các model nhận diện và xử lý ngôn ngữ tự nhiên
+C. Phân tích dữ liệu lớn để đưa ra thống kê, hiển thị trực quan thông tin
+D. Đào tạo robot công nghiệp tự động
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_6', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52088 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 30: Chuẩn đầu ra LO3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+A. Giải quyết vấn đề bằng toán học
+B. Trách nhiệm, nguyên tắc pháp lý và đạo đức nghề nghiệp
+C. Khả năng ngoại ngữ chuyên ngành
+D. Quản lý và dẫn dắt đội ngũ kỹ sư
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_12']
+INFO:     127.0.0.1:52089 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 31: Mã ngành của chương trình đào tạo Trí tuệ nhân tạo là gì?
+A. 7480101
+B. 7480109
+C. 7480201
+D. 7480107
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_9', 'exam-document-2026-v4_chunk_14', 'exam-document-2026-v4_chunk_17', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52091 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 32: Thời gian đào tạo chuẩn của ngành Trí tuệ nhân tạo kéo dài bao lâu?
+A. 4 năm
+B. 3.5 năm
+C. 4.5 năm
+D. 5 năm
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_1', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_19']
+INFO:     127.0.0.1:52092 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 33: Tổ hợp môn xét tuyển khối A00 và A01 của ngành gồm những môn nào?
+A. Toán, Lý, Hóa hoặc Toán, Văn, Anh
+B. Toán, Lý, Hóa hoặc Toán, Lý, Anh văn
+C. Toán, Lý, Sinh hoặc Toán, Hóa, Sinh
+D. Toán, Khoa học, Ngoại ngữ
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_16']
+INFO:     127.0.0.1:52093 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 34: Môn học 'Lập trình Python cơ bản' được giảng dạy ở học kỳ mấy?
+A. Học kỳ 1
+B. Học kỳ 4
+C. Học kỳ 2
+D. Học kỳ 3
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52096 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 35: Chuẩn đầu ra LO2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+A. Giao tiếp hiệu quả trong môi trường chuyên nghiệp
+B. Có khả năng làm việc nhóm tốt
+C. Có khả năng lập trình ứng dụng AI
+D. Có đạo đức và tính minh bạch trong nghiên cứu
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_6']
+INFO:     127.0.0.1:52097 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 36: Kỹ sư Thị giác máy tính (CV Engineer) đòi hỏi xử lý loại dữ liệu nào?
+A. Hình ảnh và video
+B. Âm thanh và giọng nói
+C. Văn bản và tài liệu chữ
+D. Cả 3 loại trên
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_4', 'exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52099 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 37: Môn 'Nhập môn Học sâu' (Deep Learning) thuộc học kỳ mấy?
+A. Học kỳ 4
+B. Học kỳ 5
+C. Học kỳ 6
+D. Học kỳ 7
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_8', 'exam-document-2026-v4_chunk_0']
+INFO:     127.0.0.1:52101 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 38: Ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+A. Thực tập và tốt nghiệp
+B. Học các môn bổ trợ chuyên ngành
+C. Đi học Giáo dục Quốc phòng và An ninh
+D. Làm độ án liên ngành
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_11']
+INFO:     127.0.0.1:52102 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 39: Vị trí Data Analyst có vai trò ứng dụng AI để làm gì?
+A. Viết API kết nối
+B. Tạo ra các model nhận diện và xử lý ngôn ngữ tự nhiên
+C. Phân tích dữ liệu lớn để đưa ra thống kê, hiển thị trực quan thông tin
+D. Đào tạo robot công nghiệp tự động
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_6', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52104 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 40: Chuẩn đầu ra LO3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+A. Giải quyết vấn đề bằng toán học
+B. Trách nhiệm, nguyên tắc pháp lý và đạo đức nghề nghiệp
+C. Khả năng ngoại ngữ chuyên ngành
+D. Quản lý và dẫn dắt đội ngũ kỹ sư
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_6']
+INFO:     127.0.0.1:52107 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 41: Mã ngành của chương trình đào tạo Trí tuệ nhân tạo là gì?
+A. 7480101
+B. 7480109
+C. 7480201
+D. 7480107
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_14', 'exam-document-2026-v4_chunk_9', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_17']
+INFO:     127.0.0.1:52110 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 42: Thời gian đào tạo chuẩn của ngành Trí tuệ nhân tạo kéo dài bao lâu?
+A. 4 năm
+B. 3.5 năm
+C. 4.5 năm
+D. 5 năm
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_1', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_19']
+INFO:     127.0.0.1:52111 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 43: Tổ hợp môn xét tuyển khối A00 và A01 của ngành gồm những môn nào?
+A. Toán, Lý, Hóa hoặc Toán, Văn, Anh
+B. Toán, Lý, Hóa hoặc Toán, Lý, Anh văn
+C. Toán, Lý, Sinh hoặc Toán, Hóa, Sinh
+D. Toán, Khoa học, Ngoại ngữ
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_16']
+INFO:     127.0.0.1:52113 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 44: Môn học 'Lập trình Python cơ bản' được giảng dạy ở học kỳ mấy?
+A. Học kỳ 1
+B. Học kỳ 4
+C. Học kỳ 2
+D. Học kỳ 3
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52114 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 45: Chuẩn đầu ra LO2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+A. Giao tiếp hiệu quả trong môi trường chuyên nghiệp
+B. Có khả năng làm việc nhóm tốt
+C. Có khả năng lập trình ứng dụng AI
+D. Có đạo đức và tính minh bạch trong nghiên cứu
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_6']
+INFO:     127.0.0.1:52115 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 46: Kỹ sư Thị giác máy tính (CV Engineer) đòi hỏi xử lý loại dữ liệu nào?
+A. Hình ảnh và video
+B. Âm thanh và giọng nói
+C. Văn bản và tài liệu chữ
+D. Cả 3 loại trên
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_4', 'exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52116 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 47: Môn 'Nhập môn Học sâu' (Deep Learning) thuộc học kỳ mấy?
+A. Học kỳ 4
+B. Học kỳ 5
+C. Học kỳ 6
+D. Học kỳ 7
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_8', 'exam-document-2026-v4_chunk_0']
+INFO:     127.0.0.1:52118 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 48: Ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+A. Thực tập và tốt nghiệp
+B. Học các môn bổ trợ chuyên ngành
+C. Đi học Giáo dục Quốc phòng và An ninh
+D. Làm độ án liên ngành
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_11']
+INFO:     127.0.0.1:52119 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 49: Vị trí Data Analyst có vai trò ứng dụng AI để làm gì?
+A. Viết API kết nối
+B. Tạo ra các model nhận diện và xử lý ngôn ngữ tự nhiên
+C. Phân tích dữ liệu lớn để đưa ra thống kê, hiển thị trực quan thông tin
+D. Đào tạo robot công nghiệp tự động
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_6', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52121 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 50: Chuẩn đầu ra LO3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+A. Giải quyết vấn đề bằng toán học
+B. Trách nhiệm, nguyên tắc pháp lý và đạo đức nghề nghiệp
+C. Khả năng ngoại ngữ chuyên ngành
+D. Quản lý và dẫn dắt đội ngũ kỹ sư
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_6']
+INFO:     127.0.0.1:52123 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 51: Mã ngành của chương trình đào tạo Trí tuệ nhân tạo là gì?
+A. 7480101
+B. 7480109
+C. 7480201
+D. 7480107
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_9', 'exam-document-2026-v4_chunk_14', 'exam-document-2026-v4_chunk_17', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52128 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 52: Thời gian đào tạo chuẩn của ngành Trí tuệ nhân tạo kéo dài bao lâu?
+A. 4 năm
+B. 3.5 năm
+C. 4.5 năm
+D. 5 năm
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_1', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_8']
+INFO:     127.0.0.1:52130 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 53: Tổ hợp môn xét tuyển khối A00 và A01 của ngành gồm những môn nào?
+A. Toán, Lý, Hóa hoặc Toán, Văn, Anh
+B. Toán, Lý, Hóa hoặc Toán, Lý, Anh văn
+C. Toán, Lý, Sinh hoặc Toán, Hóa, Sinh
+D. Toán, Khoa học, Ngoại ngữ
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_16']
+INFO:     127.0.0.1:52131 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 54: Môn học 'Lập trình Python cơ bản' được giảng dạy ở học kỳ mấy?
+A. Học kỳ 1
+B. Học kỳ 4
+C. Học kỳ 2
+D. Học kỳ 3
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52134 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 55: Chuẩn đầu ra LO2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+A. Giao tiếp hiệu quả trong môi trường chuyên nghiệp
+B. Có khả năng làm việc nhóm tốt
+C. Có khả năng lập trình ứng dụng AI
+D. Có đạo đức và tính minh bạch trong nghiên cứu
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_6']
+INFO:     127.0.0.1:52135 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 56: Kỹ sư Thị giác máy tính (CV Engineer) đòi hỏi xử lý loại dữ liệu nào?
+A. Hình ảnh và video
+B. Âm thanh và giọng nói
+C. Văn bản và tài liệu chữ
+D. Cả 3 loại trên
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_4', 'exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52136 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 57: Môn 'Nhập môn Học sâu' (Deep Learning) thuộc học kỳ mấy?
+A. Học kỳ 4
+B. Học kỳ 5
+C. Học kỳ 6
+D. Học kỳ 7
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_8', 'exam-document-2026-v4_chunk_0']
+INFO:     127.0.0.1:52138 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 58: Ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+A. Thực tập và tốt nghiệp
+B. Học các môn bổ trợ chuyên ngành
+C. Đi học Giáo dục Quốc phòng và An ninh
+D. Làm độ án liên ngành
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_11']
+INFO:     127.0.0.1:52140 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 59: Vị trí Data Analyst có vai trò ứng dụng AI để làm gì?
+A. Viết API kết nối
+B. Tạo ra các model nhận diện và xử lý ngôn ngữ tự nhiên
+C. Phân tích dữ liệu lớn để đưa ra thống kê, hiển thị trực quan thông tin
+D. Đào tạo robot công nghiệp tự động
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_6', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52145 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 60: Chuẩn đầu ra LO3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+A. Giải quyết vấn đề bằng toán học
+B. Trách nhiệm, nguyên tắc pháp lý và đạo đức nghề nghiệp
+C. Khả năng ngoại ngữ chuyên ngành
+D. Quản lý và dẫn dắt đội ngũ kỹ sư
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_6']
+INFO:     127.0.0.1:52146 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 61: Mã ngành của chương trình đào tạo Trí tuệ nhân tạo là gì?
+A. 7480101
+B. 7480109
+C. 7480201
+D. 7480107
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_14', 'exam-document-2026-v4_chunk_9', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_17']
+INFO:     127.0.0.1:52147 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 62: Thời gian đào tạo chuẩn của ngành Trí tuệ nhân tạo kéo dài bao lâu?
+A. 4 năm
+B. 3.5 năm
+C. 4.5 năm
+D. 5 năm
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_1', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_19']
+INFO:     127.0.0.1:52148 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 63: Tổ hợp môn xét tuyển khối A00 và A01 của ngành gồm những môn nào?
+A. Toán, Lý, Hóa hoặc Toán, Văn, Anh
+B. Toán, Lý, Hóa hoặc Toán, Lý, Anh văn
+C. Toán, Lý, Sinh hoặc Toán, Hóa, Sinh
+D. Toán, Khoa học, Ngoại ngữ
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_16']
+INFO:     127.0.0.1:52153 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 64: Môn học 'Lập trình Python cơ bản' được giảng dạy ở học kỳ mấy?
+A. Học kỳ 1
+B. Học kỳ 4
+C. Học kỳ 2
+D. Học kỳ 3
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52154 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 65: Chuẩn đầu ra LO2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+A. Giao tiếp hiệu quả trong môi trường chuyên nghiệp
+B. Có khả năng làm việc nhóm tốt
+C. Có khả năng lập trình ứng dụng AI
+D. Có đạo đức và tính minh bạch trong nghiên cứu
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_6']
+INFO:     127.0.0.1:52155 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 66: Kỹ sư Thị giác máy tính (CV Engineer) đòi hỏi xử lý loại dữ liệu nào?
+A. Hình ảnh và video
+B. Âm thanh và giọng nói
+C. Văn bản và tài liệu chữ
+D. Cả 3 loại trên
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_4', 'exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52156 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 67: Môn 'Nhập môn Học sâu' (Deep Learning) thuộc học kỳ mấy?
+A. Học kỳ 4
+B. Học kỳ 5
+C. Học kỳ 6
+D. Học kỳ 7
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_8', 'exam-document-2026-v4_chunk_0']
+INFO:     127.0.0.1:52157 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 68: Ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+A. Thực tập và tốt nghiệp
+B. Học các môn bổ trợ chuyên ngành
+C. Đi học Giáo dục Quốc phòng và An ninh
+D. Làm độ án liên ngành
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_11']
+INFO:     127.0.0.1:52159 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 69: Vị trí Data Analyst có vai trò ứng dụng AI để làm gì?
+A. Viết API kết nối
+B. Tạo ra các model nhận diện và xử lý ngôn ngữ tự nhiên
+C. Phân tích dữ liệu lớn để đưa ra thống kê, hiển thị trực quan thông tin
+D. Đào tạo robot công nghiệp tự động
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_6', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52161 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 70: Chuẩn đầu ra LO3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+A. Giải quyết vấn đề bằng toán học
+B. Trách nhiệm, nguyên tắc pháp lý và đạo đức nghề nghiệp
+C. Khả năng ngoại ngữ chuyên ngành
+D. Quản lý và dẫn dắt đội ngũ kỹ sư
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_6']
+INFO:     127.0.0.1:52162 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 71: Mã ngành của chương trình đào tạo Trí tuệ nhân tạo là gì?
+A. 7480101
+B. 7480109
+C. 7480201
+D. 7480107
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_9', 'exam-document-2026-v4_chunk_14', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_17']
+INFO:     127.0.0.1:52163 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 72: Thời gian đào tạo chuẩn của ngành Trí tuệ nhân tạo kéo dài bao lâu?
+A. 4 năm
+B. 3.5 năm
+C. 4.5 năm
+D. 5 năm
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_1', 'exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_19']
+INFO:     127.0.0.1:52165 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 73: Tổ hợp môn xét tuyển khối A00 và A01 của ngành gồm những môn nào?
+A. Toán, Lý, Hóa hoặc Toán, Văn, Anh
+B. Toán, Lý, Hóa hoặc Toán, Lý, Anh văn
+C. Toán, Lý, Sinh hoặc Toán, Hóa, Sinh
+D. Toán, Khoa học, Ngoại ngữ
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_16']
+INFO:     127.0.0.1:52166 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 74: Môn học 'Lập trình Python cơ bản' được giảng dạy ở học kỳ mấy?
+A. Học kỳ 1
+B. Học kỳ 4
+C. Học kỳ 2
+D. Học kỳ 3
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52167 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 75: Chuẩn đầu ra LO2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+A. Giao tiếp hiệu quả trong môi trường chuyên nghiệp
+B. Có khả năng làm việc nhóm tốt
+C. Có khả năng lập trình ứng dụng AI
+D. Có đạo đức và tính minh bạch trong nghiên cứu
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_6']
+INFO:     127.0.0.1:52168 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 76: Kỹ sư Thị giác máy tính (CV Engineer) đòi hỏi xử lý loại dữ liệu nào?
+A. Hình ảnh và video
+B. Âm thanh và giọng nói
+C. Văn bản và tài liệu chữ
+D. Cả 3 loại trên
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_4', 'exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52169 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 77: Môn 'Nhập môn Học sâu' (Deep Learning) thuộc học kỳ mấy?
+A. Học kỳ 4
+B. Học kỳ 5
+C. Học kỳ 6
+D. Học kỳ 7
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_8', 'exam-document-2026-v4_chunk_0']
+INFO:     127.0.0.1:52172 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 78: Ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+A. Thực tập và tốt nghiệp
+B. Học các môn bổ trợ chuyên ngành
+C. Đi học Giáo dục Quốc phòng và An ninh
+D. Làm độ án liên ngành
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_11']
+INFO:     127.0.0.1:52173 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 79: Vị trí Data Analyst có vai trò ứng dụng AI để làm gì?
+A. Viết API kết nối
+B. Tạo ra các model nhận diện và xử lý ngôn ngữ tự nhiên
+C. Phân tích dữ liệu lớn để đưa ra thống kê, hiển thị trực quan thông tin
+D. Đào tạo robot công nghiệp tự động
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_6', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52175 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 80: Chuẩn đầu ra LO3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+A. Giải quyết vấn đề bằng toán học
+B. Trách nhiệm, nguyên tắc pháp lý và đạo đức nghề nghiệp
+C. Khả năng ngoại ngữ chuyên ngành
+D. Quản lý và dẫn dắt đội ngũ kỹ sư
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_6']
+INFO:     127.0.0.1:52176 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 81: Mã ngành của chương trình đào tạo Trí tuệ nhân tạo là gì?
+A. 7480101
+B. 7480109
+C. 7480201
+D. 7480107
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_9', 'exam-document-2026-v4_chunk_14', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_17']
+INFO:     127.0.0.1:52177 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 82: Thời gian đào tạo chuẩn của ngành Trí tuệ nhân tạo kéo dài bao lâu?
+A. 4 năm
+B. 3.5 năm
+C. 4.5 năm
+D. 5 năm
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_1', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_19']
+INFO:     127.0.0.1:52179 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 83: Tổ hợp môn xét tuyển khối A00 và A01 của ngành gồm những môn nào?
+A. Toán, Lý, Hóa hoặc Toán, Văn, Anh
+B. Toán, Lý, Hóa hoặc Toán, Lý, Anh văn
+C. Toán, Lý, Sinh hoặc Toán, Hóa, Sinh
+D. Toán, Khoa học, Ngoại ngữ
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_16']
+INFO:     127.0.0.1:52180 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 84: Môn học 'Lập trình Python cơ bản' được giảng dạy ở học kỳ mấy?
+A. Học kỳ 1
+B. Học kỳ 4
+C. Học kỳ 2
+D. Học kỳ 3
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52181 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 85: Chuẩn đầu ra LO2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+A. Giao tiếp hiệu quả trong môi trường chuyên nghiệp
+B. Có khả năng làm việc nhóm tốt
+C. Có khả năng lập trình ứng dụng AI
+D. Có đạo đức và tính minh bạch trong nghiên cứu
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_6']
+INFO:     127.0.0.1:52182 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 86: Kỹ sư Thị giác máy tính (CV Engineer) đòi hỏi xử lý loại dữ liệu nào?
+A. Hình ảnh và video
+B. Âm thanh và giọng nói
+C. Văn bản và tài liệu chữ
+D. Cả 3 loại trên
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_4', 'exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52184 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 87: Môn 'Nhập môn Học sâu' (Deep Learning) thuộc học kỳ mấy?
+A. Học kỳ 4
+B. Học kỳ 5
+C. Học kỳ 6
+D. Học kỳ 7
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_8', 'exam-document-2026-v4_chunk_0']
+INFO:     127.0.0.1:52186 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 88: Ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+A. Thực tập và tốt nghiệp
+B. Học các môn bổ trợ chuyên ngành
+C. Đi học Giáo dục Quốc phòng và An ninh
+D. Làm độ án liên ngành
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_11']
+INFO:     127.0.0.1:52188 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 89: Vị trí Data Analyst có vai trò ứng dụng AI để làm gì?
+A. Viết API kết nối
+B. Tạo ra các model nhận diện và xử lý ngôn ngữ tự nhiên
+C. Phân tích dữ liệu lớn để đưa ra thống kê, hiển thị trực quan thông tin
+D. Đào tạo robot công nghiệp tự động
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_6', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52189 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 90: Chuẩn đầu ra LO3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+A. Giải quyết vấn đề bằng toán học
+B. Trách nhiệm, nguyên tắc pháp lý và đạo đức nghề nghiệp
+C. Khả năng ngoại ngữ chuyên ngành
+D. Quản lý và dẫn dắt đội ngũ kỹ sư
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_6']
+INFO:     127.0.0.1:52191 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 91: Mã ngành của chương trình đào tạo Trí tuệ nhân tạo là gì?
+A. 7480101
+B. 7480109
+C. 7480201
+D. 7480107
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_9', 'exam-document-2026-v4_chunk_14', 'exam-document-2026-v4_chunk_17', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52193 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 92: Thời gian đào tạo chuẩn của ngành Trí tuệ nhân tạo kéo dài bao lâu?
+A. 4 năm
+B. 3.5 năm
+C. 4.5 năm
+D. 5 năm
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_1', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_19']
+INFO:     127.0.0.1:52194 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 93: Tổ hợp môn xét tuyển khối A00 và A01 của ngành gồm những môn nào?
+A. Toán, Lý, Hóa hoặc Toán, Văn, Anh
+B. Toán, Lý, Hóa hoặc Toán, Lý, Anh văn
+C. Toán, Lý, Sinh hoặc Toán, Hóa, Sinh
+D. Toán, Khoa học, Ngoại ngữ
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_16']
+INFO:     127.0.0.1:52196 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 94: Môn học 'Lập trình Python cơ bản' được giảng dạy ở học kỳ mấy?
+A. Học kỳ 1
+B. Học kỳ 4
+C. Học kỳ 2
+D. Học kỳ 3
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52198 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 95: Chuẩn đầu ra LO2 nhấn mạnh vào năng lực cốt lõi nào của sinh viên?
+A. Giao tiếp hiệu quả trong môi trường chuyên nghiệp
+B. Có khả năng làm việc nhóm tốt
+C. Có khả năng lập trình ứng dụng AI
+D. Có đạo đức và tính minh bạch trong nghiên cứu
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_6']
+INFO:     127.0.0.1:52200 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 96: Kỹ sư Thị giác máy tính (CV Engineer) đòi hỏi xử lý loại dữ liệu nào?
+A. Hình ảnh và video
+B. Âm thanh và giọng nói
+C. Văn bản và tài liệu chữ
+D. Cả 3 loại trên
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_4', 'exam-document-2026-v4_chunk_12', 'exam-document-2026-v4_chunk_3']
+INFO:     127.0.0.1:52205 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 97: Môn 'Nhập môn Học sâu' (Deep Learning) thuộc học kỳ mấy?
+A. Học kỳ 4
+B. Học kỳ 5
+C. Học kỳ 6
+D. Học kỳ 7
+📢 Đáp án xuất xưởng: D | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_0', 'exam-document-2026-v4_chunk_8']
+INFO:     127.0.0.1:52208 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 98: Ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?
+A. Thực tập và tốt nghiệp
+B. Học các môn bổ trợ chuyên ngành
+C. Đi học Giáo dục Quốc phòng và An ninh
+D. Làm độ án liên ngành
+📢 Đáp án xuất xưởng: A | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_18', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_13', 'exam-document-2026-v4_chunk_11']
+INFO:     127.0.0.1:52210 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 99: Vị trí Data Analyst có vai trò ứng dụng AI để làm gì?
+A. Viết API kết nối
+B. Tạo ra các model nhận diện và xử lý ngôn ngữ tự nhiên
+C. Phân tích dữ liệu lớn để đưa ra thống kê, hiển thị trực quan thông tin
+D. Đào tạo robot công nghiệp tự động
+📢 Đáp án xuất xưởng: C | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_5', 'exam-document-2026-v4_chunk_6', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7']
+INFO:     127.0.0.1:52216 - "POST /ask HTTP/1.1" 200 OK
+👉 Câu hỏi từ Teacher Server: Câu 100: Chuẩn đầu ra LO3 liên quan mạnh mẽ nhất tới khía cạnh nào sau đây?
+A. Giải quyết vấn đề bằng toán học
+B. Trách nhiệm, nguyên tắc pháp lý và đạo đức nghề nghiệp
+C. Khả năng ngoại ngữ chuyên ngành
+D. Quản lý và dẫn dắt đội ngũ kỹ sư
+📢 Đáp án xuất xưởng: B | Nguồn tham chiếu: ['exam-document-2026-v4_chunk_3', 'exam-document-2026-v4_chunk_2', 'exam-document-2026-v4_chunk_7', 'exam-document-2026-v4_chunk_6']
+INFO:     127.0.0.1:52218 - "POST /ask HTTP/1.1" 200 OK
