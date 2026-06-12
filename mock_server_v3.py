@@ -45,21 +45,8 @@ async def reset_score(x_student_id: Optional[str] = Header(None, alias="X-Studen
     return {"message": "Đã reset điểm thành công"}
 
 # =========================================================================
-# BỘ MẪU CÂU HỎI CỐT LÕI - ĐƯỢC CHUẨN HÓA KHỚP LOGIC VỚI TÀI LIỆU KHẢO THÍ
+# BỘ MẪU 100 CÂU HỎI - ĐƯỢC CHUẨN HÓA KHỚP LOGIC VỚI TÀI LIỆU
 # =========================================================================
-# BASE_QUESTIONS = [
-#     {"q": "Mã ngành của chương trình đào tạo Trí tuệ nhân tạo là gì?", "a": "D"},
-#     {"q": "Thời gian đào tạo chuẩn của ngành Trí tuệ nhân tạo kéo dài bao lâu?", "a": "C"},
-#     {"q": "Trong cơ cấu xét tuyển, ngoài khối A00 và A01, ngành Trí tuệ nhân tạo còn xét tuyển khối nào?", "a": "B"},
-#     {"q": "Môn học nào cung cấp nền tảng lập trình đầu tiên cho sinh viên ngành Trí tuệ nhân tạo ở học kỳ 1?", "a": "C"},
-#     {"q": "Chuẩn đầu ra LO2 hướng tới năng lực cốt lõi nào của sinh viên sau khi tốt nghiệp?", "a": "C"},
-#     {"q": "Vị trí việc làm Computer Vision Engineer liên quan trực tiếp đến việc phát triển ứng dụng nào?", "a": "A"},
-#     {"q": "Môn học 'Nhập môn Học sâu' (Deep Learning) thuộc học kỳ mấy trong khung chương trình?", "a": "D"},
-#     {"q": "Ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?", "a": "A"},
-#     {"q": "Vị trí Data Analyst có vai trò ứng dụng AI để làm gì?", "a": "C"},
-#     {"q": "Chuẩn đầu ra LO3 quy định sinh viên phải tuân thủ các nguyên tắc pháp lý và đạo đức nghề nghiệp nào?", "a": "B"}
-# ]
-
 BASE_QUESTIONS = [
     # --- 10 CÂU GỐC BAN ĐẦU ---
     {"q": "Mã ngành của chương trình đào tạo Trí tuệ nhân tạo là gì?\nA. 7480101\nB. 7480109\nC. 7480201\nD. 7480107", "a": "D"},
@@ -214,6 +201,7 @@ def run_evaluation_workflow(student_id: str, student_url: str, document_received
     correct_answers = 0
     
     for i, exam in enumerate(MOCK_QUESTIONS_100):
+        # Đảm bảo cập nhật trạng thái an toàn
         if student_id in evaluation_results:
             evaluation_results[student_id]["current_question"] = i + 1
             
@@ -250,6 +238,7 @@ async def evaluate(request: EvaluateRequest, x_student_id: Optional[str] = Heade
         raise HTTPException(status_code=400, detail="Student not registered")
     
     student_url = registered_students[x_student_id]
+    # Khởi tạo phần tử đầy đủ cấu trúc từ trước khi luồng Thread chạy để tránh lỗi KeyError ở client
     evaluation_results[x_student_id] = {
         "student_id": x_student_id, "score": 0.0, "status": "EVALUATING", "current_question": 0, "detail": ""
     }
@@ -267,6 +256,24 @@ async def get_result(x_student_id: Optional[str] = Header(None, alias="X-Student
         raise HTTPException(status_code=404, detail="No result found")
     return evaluation_results[x_student_id]
 
+# @app.post("/api/v1/proxy/chat/completions")
+# async def mock_llm_proxy(request: ChatCompletionRequest, authorization: Optional[str] = Header(None)):
+#     user_message = request.messages[-1].content if request.messages else ""
+#     user_message_lower = user_message.lower().strip()
+    
+#     detected_answer = "A"
+#     for exam in BASE_QUESTIONS:
+#         cleaned_exam_q = exam["q"].split("\n")[0].lower()
+#         # Nới rộng điều kiện tìm kiếm, trích xuất từ khóa thô loại bỏ ký tự câu hỏi để đối chiếu chuẩn xác nhất
+#         raw_q_keyword = re.sub(r'câu \d+:\s*', '', cleaned_exam_q).strip()
+        
+#         if raw_q_keyword[:25] in user_message_lower:
+#             # Thuật toán quét ngữ cảnh thông minh mềm dẻo tránh bẫy viết hoa viết thường dấu câu
+#             if any(kw in user_message_lower for kw in ["7480107", "4.5 năm", "4 năm", "anh văn", "học kỳ 2", "ứng dụng ai", "hình ảnh", "học kỳ 7", "thực tập", "phân tích dữ liệu", "đạo đức"]):
+#                 detected_answer = exam["a"]
+#                 break
+                
+#     return {"choices": [{"message": {"role": "assistant", "content": detected_answer}}]}
 @app.post("/api/v1/proxy/chat/completions")
 async def mock_llm_proxy(request: ChatCompletionRequest, authorization: Optional[str] = Header(None)):
     user_message = request.messages[-1].content if request.messages else ""
@@ -281,14 +288,14 @@ async def mock_llm_proxy(request: ChatCompletionRequest, authorization: Optional
 
     print(f"🔬 [PROXY INSPECT] Đang bẫy câu hỏi bóc tách: '{question_part[:100]}...'")
 
-    # Kiểm tra bằng từ khóa độc bản nằm duy nhất trong câu hỏi thi thực tế (Bộ Hardcoded Rules chuẩn chỉnh)
+    # Kiểm tra bằng từ khóa độc bản nằm duy nhất trong câu hỏi thi thực tế
     if "mã ngành" in question_part:
         return {"choices": [{"message": {"role": "assistant", "content": "D"}}]}
     elif "thời gian đào tạo chuẩn" in question_part:
         return {"choices": [{"message": {"role": "assistant", "content": "C"}}]}
     elif "tổ hợp môn xét tuyển" in question_part or "khối a00" in question_part:
         return {"choices": [{"message": {"role": "assistant", "content": "B"}}]}
-    elif "python cơ bản" in question_part or "nền tảng lập trình" in question_part:
+    elif "python cơ bản" in question_part:
         return {"choices": [{"message": {"role": "assistant", "content": "C"}}]}
     elif "lo2" in question_part or "lập trình ứng dụng ai" in question_part:
         return {"choices": [{"message": {"role": "assistant", "content": "C"}}]}
@@ -304,14 +311,11 @@ async def mock_llm_proxy(request: ChatCompletionRequest, authorization: Optional
         print("🎯 [PROXY MATCH] Khớp chính xác câu hỏi LO3 -> Ép đáp án xuất xưởng: B")
         return {"choices": [{"message": {"role": "assistant", "content": "B"}}]}
 
-    # FIX: Khắc phục lỗi tràn va chạm ký tự bằng cơ chế quét chuỗi con toàn vẹn không giới hạn slice
+    # Fallback dự phòng quét theo vòng lặp nếu định dạng câu hỏi bị thay đổi cấu trúc ngoại lệ
     for exam in BASE_QUESTIONS:
-        cleaned_base_q = exam["q"].lower().strip()
-        clean_base_core = re.sub(r'^câu\s+\d+:\s*', '', cleaned_base_q).strip()
-        
-        # So khớp hai chiều toàn diện để ép đáp án chính xác
-        if clean_base_core in question_part or question_part in clean_base_core:
-            print(f"🎯 [PROXY MATCH] Khớp Fallback an toàn chuỗi core -> Ép đáp án: {exam['a']}")
+        cleaned_exam_q = exam["q"].split("\n")[0].lower()
+        raw_q_keyword = re.sub(r'câu \d+:\s*', '', cleaned_exam_q).strip()
+        if raw_q_keyword[:25] in question_part:
             return {"choices": [{"message": {"role": "assistant", "content": exam["a"]}}]}
             
     return {"choices": [{"message": {"role": "assistant", "content": "A"}}]}

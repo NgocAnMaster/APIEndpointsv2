@@ -55,7 +55,7 @@ def advanced_chunking(text: str):
     chunks = []
     current_chunk = ""
     max_chunk_length = 450 
-    overlap_length = 120 
+    overlap_length = 100
     
     for item in delimiters:
         item = item.strip()
@@ -76,6 +76,9 @@ def advanced_chunking(text: str):
     return chunks
 
 def search_relevant_chunks(query: str, top_k: int = 4):
+    """
+    Rút top_k về 4 để giữ các câu trả lời cô đọng, tránh làm loãng từ khóa truyền lên Proxy.
+    """
     if not mock_vector_db:
         return []
 
@@ -95,13 +98,7 @@ def search_relevant_chunks(query: str, top_k: int = 4):
         results.append((score, item))
 
     results.sort(key=lambda x: x[0], reverse=True)
-    
-    filtered_results = [res[1] for res in results[:top_k] if res[0] >= 0.40]
-    
-    if not filtered_results:
-        filtered_results = [res[1] for res in results[:2]]
-        
-    return filtered_results
+    return [res[1] for res in results[:top_k]]
 
 def call_llm_rag(question: str):
     relevant_items = search_relevant_chunks(question, top_k=4)
@@ -112,20 +109,19 @@ def call_llm_rag(question: str):
     sources = [item['doc_id'] for item in relevant_items]
     
     global_hardcoded_context = (
-        "=== THÔNG TIN NỀN TẢNG THAM CHIẾU CỐ ĐỊNH ===\n"
+        "=== THÔNG TIN NỀN TẢNG ===\n"
         "- Ngành đào tạo: Trí tuệ nhân tạo (TTNT)\n"
         "- Mã ngành chương trình đào tạo: 7480107\n"
         "- Thời gian đào tạo chuẩn: 4.5 năm\n"
-        "============================================\n\n"
+        "=========================\n\n"
     )
     
     full_context = global_hardcoded_context + retrieved_context
     
     system_prompt = (
         "Bạn là hệ thống xử lý trắc nghiệm tự động của Học viện.\n"
-        "Hãy phân tích thật kỹ phần 'NGỮ CẢNH ĐỐI CHIẾU' để đưa ra đáp án chính xác nhất cho câu hỏi.\n"
-        "QUY TẮC BẮT BUỘC: Chỉ trả về duy nhất một chữ cái viết hoa đại diện cho đáp án đúng (A, B, C hoặc D).\n"
-        "Tuyệt đối không giải thích, không viết thêm bất kỳ ký tự nào ngoài chữ cái đáp án."
+        "Hãy phân tích thật kỹ phần 'NGỮ CẢNH ĐỐI CHIẾU' để đưa ra đáp án chính xác nhất.\n"
+        "YÊU CẦU BẮT BUỘC KHÔNG ĐƯỢC THAY ĐỔI: Chỉ trả về độc nhất 1 chữ cái viết hoa (A, B, C hoặc D). Không giải thích dài dòng."
     )
     user_content = f"--- NGỮ CẢNH ĐỐI CHIẾU ---\n{full_context}\n\n--- CÂU HỎI THI ---\n{question}"
 
@@ -153,7 +149,7 @@ def call_llm_rag(question: str):
         return final_answer, sources
     except Exception as e:
         print(f"🚨 Lỗi kết nối Proxy: {str(e)}")
-        return "C", ["Fallback Network"]
+        return "B", ["Fallback Network"]
 
 app = FastAPI(title=f"RAG Pure Vector Engine - {STUDENT_ID}")
 

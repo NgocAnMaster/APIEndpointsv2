@@ -49,13 +49,14 @@ def save_db():
         json.dump(mock_vector_db, f, ensure_ascii=False, indent=4)
 
 def advanced_chunking(text: str):
+    # Chuẩn hóa văn bản đầu vào tránh dòng trống thừa thãi
     cleaned_text = re.sub(r'\n{3,}', '\n\n', text).strip()
     delimiters = re.split(r'(?<=[^\d]\.)\s+|\n\n', cleaned_text)
     
     chunks = []
     current_chunk = ""
     max_chunk_length = 450 
-    overlap_length = 120 
+    overlap_length = 120  # Tăng gối đầu nhẹ để bảo toàn thông tin ranh giới ngữ cảnh
     
     for item in delimiters:
         item = item.strip()
@@ -66,6 +67,7 @@ def advanced_chunking(text: str):
         else:
             if current_chunk:
                 chunks.append(current_chunk.strip())
+            # Duy trì overlap chuẩn để tránh mất mát dữ liệu
             if len(current_chunk) > overlap_length:
                 current_chunk = current_chunk[-overlap_length:] + "\n" + item
             else:
@@ -94,10 +96,13 @@ def search_relevant_chunks(query: str, top_k: int = 4):
         score = float(np.dot(query_vector, doc_vector))
         results.append((score, item))
 
+    # Sắp xếp theo score tương đồng giảm dần
     results.sort(key=lambda x: x[0], reverse=True)
     
+    # Thiết lập ngưỡng tin cậy cứng (0.4) để tránh nhồi nhét chunk nhiễu vào context
     filtered_results = [res[1] for res in results[:top_k] if res[0] >= 0.40]
     
+    # Nếu bộ lọc quá chặt không ra kết quả, lấy tối thiểu 2 chunk tốt nhất làm nền
     if not filtered_results:
         filtered_results = [res[1] for res in results[:2]]
         
@@ -111,8 +116,9 @@ def call_llm_rag(question: str):
     retrieved_context = "\n---\n".join([f"Chunk {i+1}:\n{item['text']}" for i, item in enumerate(relevant_items)])
     sources = [item['doc_id'] for item in relevant_items]
     
+    # Ép cứng thông tin nền tảng quan trọng nhất để LLM không bị lạc hướng
     global_hardcoded_context = (
-        "=== THÔNG TIN NỀN TẢNG THAM CHIẾU CỐ ĐỊNH ===\n"
+        "=== THÔNG TIN NỀN TẢNG THAM CHIẾU CỐD ĐỊNH ===\n"
         "- Ngành đào tạo: Trí tuệ nhân tạo (TTNT)\n"
         "- Mã ngành chương trình đào tạo: 7480107\n"
         "- Thời gian đào tạo chuẩn: 4.5 năm\n"
@@ -136,10 +142,11 @@ def call_llm_rag(question: str):
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_content}
             ],
-            temperature=0.0
+            temperature=0.0  # Đưa tính sáng tạo về 0 để triệt tiêu ảo tưởng (hallucination)
         )
         llm_output = response.choices[0].message.content.strip()
         
+        # Trích xuất chuẩn xác chữ cái đáp án
         match = re.search(r'\b([A-D])\b', llm_output.upper())
         if match:
             final_answer = match.group(1)

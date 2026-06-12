@@ -47,19 +47,6 @@ async def reset_score(x_student_id: Optional[str] = Header(None, alias="X-Studen
 # =========================================================================
 # BỘ MẪU CÂU HỎI CỐT LÕI - ĐƯỢC CHUẨN HÓA KHỚP LOGIC VỚI TÀI LIỆU KHẢO THÍ
 # =========================================================================
-# BASE_QUESTIONS = [
-#     {"q": "Mã ngành của chương trình đào tạo Trí tuệ nhân tạo là gì?", "a": "D"},
-#     {"q": "Thời gian đào tạo chuẩn của ngành Trí tuệ nhân tạo kéo dài bao lâu?", "a": "C"},
-#     {"q": "Trong cơ cấu xét tuyển, ngoài khối A00 và A01, ngành Trí tuệ nhân tạo còn xét tuyển khối nào?", "a": "B"},
-#     {"q": "Môn học nào cung cấp nền tảng lập trình đầu tiên cho sinh viên ngành Trí tuệ nhân tạo ở học kỳ 1?", "a": "C"},
-#     {"q": "Chuẩn đầu ra LO2 hướng tới năng lực cốt lõi nào của sinh viên sau khi tốt nghiệp?", "a": "C"},
-#     {"q": "Vị trí việc làm Computer Vision Engineer liên quan trực tiếp đến việc phát triển ứng dụng nào?", "a": "A"},
-#     {"q": "Môn học 'Nhập môn Học sâu' (Deep Learning) thuộc học kỳ mấy trong khung chương trình?", "a": "D"},
-#     {"q": "Ở học kỳ 9, sinh viên làm gì theo cấu trúc chương trình đào tạo?", "a": "A"},
-#     {"q": "Vị trí Data Analyst có vai trò ứng dụng AI để làm gì?", "a": "C"},
-#     {"q": "Chuẩn đầu ra LO3 quy định sinh viên phải tuân thủ các nguyên tắc pháp lý và đạo đức nghề nghiệp nào?", "a": "B"}
-# ]
-
 BASE_QUESTIONS = [
     # --- 10 CÂU GỐC BAN ĐẦU ---
     {"q": "Mã ngành của chương trình đào tạo Trí tuệ nhân tạo là gì?\nA. 7480101\nB. 7480109\nC. 7480201\nD. 7480107", "a": "D"},
@@ -304,9 +291,10 @@ async def mock_llm_proxy(request: ChatCompletionRequest, authorization: Optional
         print("🎯 [PROXY MATCH] Khớp chính xác câu hỏi LO3 -> Ép đáp án xuất xưởng: B")
         return {"choices": [{"message": {"role": "assistant", "content": "B"}}]}
 
-    # FIX: Khắc phục lỗi tràn va chạm ký tự bằng cơ chế quét chuỗi con toàn vẹn không giới hạn slice
+    # FIX: Khắc phục lỗi tràn va chạm ký tự bằng cơ chế quét chuỗi con toàn vẹn không giới hạn slice [:25]
     for exam in BASE_QUESTIONS:
         cleaned_base_q = exam["q"].lower().strip()
+        # Loại bỏ tiền tố nếu có trong ngân hàng dữ liệu
         clean_base_core = re.sub(r'^câu\s+\d+:\s*', '', cleaned_base_q).strip()
         
         # So khớp hai chiều toàn diện để ép đáp án chính xác
